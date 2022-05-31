@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | MysteryDungeon</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-
+    
     <meta name="twitter:card" content="summary_large_image" />
   
     <meta property="og:title" content="MysteryDungeon" />
@@ -16,7 +16,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MysteryDungeonWebGL" />
   </head>
-
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540></canvas>
@@ -68,6 +67,7 @@
         Windows11<br>
         Mac Monterey<br>
       </div>
+      
       <div id ="credit">
         <h3>クレジット</h3>
         ディレクター、BGM、デザイン、プログラム　すーぴあ　<a href="https://twitter.com/suupia771">@suupia771</a><br>
@@ -78,7 +78,6 @@
         <br>
       </div>
     </div>
-
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -112,11 +111,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/MysteryDungeonWebGL.loader.js";
+      var loaderUrl = buildUrl + "/MysteryyDungeonwebGLl2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/MysteryDungeonWebGL.data",
-        frameworkUrl: buildUrl + "/MysteryDungeonWebGL.framework.js",
-        codeUrl: buildUrl + "/MysteryDungeonWebGL.wasm",
+        dataUrl: buildUrl + "/MysteryyDungeonwebGLl2.data",
+        frameworkUrl: buildUrl + "/MysteryyDungeonwebGLl2.framework.js",
+        codeUrl: buildUrl + "/MysteryyDungeonwebGLl2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MysteryDungeon",
