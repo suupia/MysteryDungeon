@@ -16,8 +16,10 @@ body { padding: 0; margin: 0 ;background: #fff8dc;}
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
 
 #explanation{position: relative;}
+#explanation li{margin: 0 8px 0}
 #operating-environment{position: relative;}
 
+
 h3,h4{
-    padding: 10px 0 0;
+    margin: 10px 0 0;
 }
