@@ -17,3 +17,7 @@ body { padding: 0; margin: 0 ;background: #fff8dc;}
 
 #explanation{position: relative;}
 #operating-environment{position: relative;}
+
+h3,h4{
+    padding: 10px 0 0;
+}
